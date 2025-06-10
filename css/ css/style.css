@@ -1,0 +1,38 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+header, footer, nav, section {
+  background-color: #00008B;
+  border: 1px solid #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+h1, h2, h3 {
+  color: #fff;
+}
+
+a {
+  color: #87CEFA;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.show {
+  max-height: 500px; /* Valor grande para exibir tudo */
+}
