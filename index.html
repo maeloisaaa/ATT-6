@@ -1,49 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LU Sports - Your Sports Store</title>
-  <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esporte Total - Sua Loja de Artigos Esportivos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="imgs/logo.png" alt="LU Sports Logo" width="150" />
-    <h1>LU Sports</h1>
-  </header>
+    <header>
+        <div class="logo-title">
+            <img src="imgs/logo.png" alt="Logo Esporte Total" class="logo">
+            <h1>Esporte Total</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="esporte/basquete/index.html">Basquete</a></li>
+                <li><a href="esporte/volei/index.html">Vôlei</a></li>
+                <li><a href="esporte/futebol/index.html">Futebol</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <nav>
-    <h3>Navigation</h3>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li>
-        <button id="sports-btn">Sports</button>
-        <ul id="sports-menu" class="hidden">
-          <li><a href="esporte/basquete.html">Basketball</a></li>
-          <li><a href="esporte/futebol.html">Soccer</a></li>
-          <li><a href="esporte/volei.html">Volleyball</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
+    <main>
+        <section class="hero">
+            <h2>Bem-vindo à Esporte Total!</h2>
+            <p>Sua paixão pelo esporte começa aqui. Oferecemos uma vasta gama de produtos para atletas de todos os níveis.</p>
+            <img src="imgs/loja_interna.jpg" alt="Interior da Loja Esporte Total" class="store-image">
+            <img src="imgs/loja_fachada.jpg" alt="Fachada da Loja Esporte Total" class="store-image">
+        </section>
 
-  <main>
-    <section>
-      <h2>About Us</h2>
-      <p>LU Sports is your destination for quality sports gear and equipment!</p>
-      <img src="imgs/frente-loja.jpg" alt="Storefront" />
-    </section>
-  </main>
+        <section class="featured-products">
+            <h2>Destaques da Semana</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <h3>Basquete</h3>
+                    <a href="esporte/basquete/index.html">
+                        <img src="imgs/basquete_destaque.jpg" alt="Bola de Basquete Destaque">
+                    </a>
+                    <p>Conheça nossas melhores bolas e acessórios de basquete.</p>
+                </div>
+                <div class="product-item">
+                    <h3>Vôlei</h3>
+                    <a href="esporte/volei/index.html">
+                        <img src="imgs/volei_destaque.jpg" alt="Bola de Vôlei Destaque">
+                    </a>
+                    <p>Equipamentos de vôlei para arrasar nas quadras e areias.</p>
+                </div>
+                <div class="product-item">
+                    <h3>Futebol</h3>
+                    <a href="esporte/futebol/index.html">
+                        <img src="imgs/futebol_destaque.jpg" alt="Chuteira de Futebol Destaque">
+                    </a>
+                    <p>As chuteiras e uniformes mais procurados do mundo do futebol.</p>
+                </div>
+            </div>
+        </section>
 
-  <footer>
-    <h3>Owners</h3>
-    <ul>
-      <li>Your Full Name</li>
-      <li>Partner 1</li>
-    </ul>
-    <p>&copy; 2025 LU Sports</p>
-  </footer>
+        <section class="services">
+            <h2>Nossos Serviços e Produtos</h2>
+            <ul>
+                <li>Ampla variedade de equipamentos esportivos para diversas modalidades.</li>
+                <li>Roupas e acessórios para desempenho e conforto.</li>
+                <li>Atendimento personalizado e consultoria especializada.</li>
+                <li>Oficinas e eventos esportivos (em breve).</li>
+                <li>Produtos das melhores marcas nacionais e internacionais.</li>
+            </ul>
+        </section>
 
-  <script src="js/scripts.js"></script>
+        <section class="location">
+            <h2>Onde Estamos</h2>
+            <p>Visite nossa loja física!</p>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.971295287032!2d-42.94639962575239!3d-16.16634358455434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x74602937c4d516d%3A0x86b3605417df864a!2sSalinas%2C%20MG%2C%2039560-000!5e0!3m2!1spt-BR!2sbr!4v1717967918336!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="payment-methods">
+            <h2>Formas de Pagamento</h2>
+            <ul>
+                <li>Cartões de Crédito (Visa, Mastercard, Elo, American Express)</li>
+                <li>Cartões de Débito</li>
+                <li>Pix</li>
+                <li>Boleto Bancário</li>
+                <li>Dinheiro</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por:Maria Eloísa Costa Silva</p>
+        <p>&copy; 2025 Esporte Total. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
